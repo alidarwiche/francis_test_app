@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C303C4219795D7002E211D /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C303C3219795D7002E211D /* PlaySoundsViewController.swift */; };
+		05C303C921979ADA002E211D /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 05C303C821979ADA002E211D /* movie_quote.mp3 */; };
 		05E12F162196721300183B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E12F152196721300183B35 /* AppDelegate.swift */; };
 		05E12F182196721300183B35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E12F172196721300183B35 /* ViewController.swift */; };
 		05E12F1B2196721300183B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E12F192196721300183B35 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05C303C3219795D7002E211D /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		05C303C821979ADA002E211D /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		05E12F122196721300183B35 /* francis_test_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = francis_test_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E12F152196721300183B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05E12F172196721300183B35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05C303C721979AC3002E211D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05E12F242196721300183B35 /* Info.plist */,
+				05C303C821979ADA002E211D /* movie_quote.mp3 */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		05E12F092196721300183B35 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +69,13 @@
 		05E12F142196721300183B35 /* francis_test_app */ = {
 			isa = PBXGroup;
 			children = (
+				05C303C721979AC3002E211D /* Supporting Files */,
 				05E12F152196721300183B35 /* AppDelegate.swift */,
 				05E12F172196721300183B35 /* ViewController.swift */,
 				05E12F192196721300183B35 /* Main.storyboard */,
+				05C303C3219795D7002E211D /* PlaySoundsViewController.swift */,
 				05E12F1F2196721300183B35 /* Assets.xcassets */,
 				05E12F212196721300183B35 /* LaunchScreen.storyboard */,
-				05E12F242196721300183B35 /* Info.plist */,
 				05E12F1C2196721300183B35 /* francis_test_app.xcdatamodeld */,
 			);
 			path = francis_test_app;
@@ -127,6 +141,7 @@
 			files = (
 				05E12F232196721300183B35 /* LaunchScreen.storyboard in Resources */,
 				05E12F202196721300183B35 /* Assets.xcassets in Resources */,
+				05C303C921979ADA002E211D /* movie_quote.mp3 in Resources */,
 				05E12F1B2196721300183B35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				05E12F182196721300183B35 /* ViewController.swift in Sources */,
 				05E12F162196721300183B35 /* AppDelegate.swift in Sources */,
+				05C303C4219795D7002E211D /* PlaySoundsViewController.swift in Sources */,
 				05E12F1E2196721300183B35 /* francis_test_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
