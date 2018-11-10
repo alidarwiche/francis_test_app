@@ -13,6 +13,7 @@
 		05E12F1E2196721300183B35 /* francis_test_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05E12F1C2196721300183B35 /* francis_test_app.xcdatamodeld */; };
 		05E12F202196721300183B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E12F1F2196721300183B35 /* Assets.xcassets */; };
 		05E12F232196721300183B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E12F212196721300183B35 /* LaunchScreen.storyboard */; };
+		05E12F2B21967A7000183B35 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E12F2A21967A7000183B35 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		05E12F1F2196721300183B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05E12F222196721300183B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05E12F242196721300183B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E12F2A21967A7000183B35 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				05E12F212196721300183B35 /* LaunchScreen.storyboard */,
 				05E12F242196721300183B35 /* Info.plist */,
 				05E12F1C2196721300183B35 /* francis_test_app.xcdatamodeld */,
+				05E12F2A21967A7000183B35 /* MapForItinerary.swift */,
 			);
 			path = francis_test_app;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05E12F2B21967A7000183B35 /* MapForItinerary.swift in Sources */,
 				05E12F182196721300183B35 /* ViewController.swift in Sources */,
 				05E12F162196721300183B35 /* AppDelegate.swift in Sources */,
 				05E12F1E2196721300183B35 /* francis_test_app.xcdatamodeld in Sources */,
