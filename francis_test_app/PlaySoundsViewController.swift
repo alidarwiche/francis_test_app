@@ -11,19 +11,26 @@ import AVFoundation
 
 class PlaySoundsViewController: UIViewController {
 
+    var audioPlayer:AVAudioPlayer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if var filePath = Bundle.main.path(forResource: "movie_quote", ofType: "mp3") {
-            
+            var filePathUrl = NSURL.fileURL(withPath: filePath)
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: filePathUrl)
+            } catch {
+                print("audioPlayer is not initialized")
+            }
         } else {
             print("the filePath is empty")
         }
-        
     }
     
     @IBAction func playSlowAudio(_ sender: Any) {
-        //TODO: Play audio slowly
+        //TODO: Play audio slowly(
+        audioPlayer.play()
     }
     
     /*

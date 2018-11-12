@@ -44,7 +44,6 @@
 		05C303C721979AC3002E211D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				05E12F242196721300183B35 /* Info.plist */,
 				05C303C821979ADA002E211D /* movie_quote.mp3 */,
 			);
 			path = "Supporting Files";
@@ -77,6 +76,7 @@
 				05E12F1F2196721300183B35 /* Assets.xcassets */,
 				05E12F212196721300183B35 /* LaunchScreen.storyboard */,
 				05E12F1C2196721300183B35 /* francis_test_app.xcdatamodeld */,
+				05E12F242196721300183B35 /* Info.plist */,
 			);
 			path = francis_test_app;
 			sourceTree = "<group>";
