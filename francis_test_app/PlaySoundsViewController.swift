@@ -20,6 +20,7 @@ class PlaySoundsViewController: UIViewController {
             var filePathUrl = NSURL.fileURL(withPath: filePath)
             do {
                 audioPlayer = try AVAudioPlayer(contentsOf: filePathUrl)
+                audioPlayer.enableRate = true
             } catch {
                 print("audioPlayer is not initialized")
             }
@@ -29,10 +30,26 @@ class PlaySoundsViewController: UIViewController {
     }
     
     @IBAction func playSlowAudio(_ sender: Any) {
-        //TODO: Play audio slowly(
+        // Play audio slowly
+        playAudio(rate: 0.5)
+    }
+    
+    @IBAction func playFastAudio(_ sender: Any) {
+        // Play audio quickly
+        playAudio(rate: 2.0)
+    }
+    
+    func playAudio(rate: Float) {
+        audioPlayer.stop()
+        audioPlayer.currentTime = 0.0
+        audioPlayer.rate = rate
         audioPlayer.play()
     }
     
+    @IBAction func stopAudio(_ sender: Any) {
+        //Stop audio
+        audioPlayer.stop()
+    }
     /*
     // MARK: - Navigation
 
