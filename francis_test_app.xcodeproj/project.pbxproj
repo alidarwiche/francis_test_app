@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		0554B84121A09A55007E54A1 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		0583890721B07EA3002E2D8D /* francis_test_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = francis_test_app.entitlements; sourceTree = "<group>"; };
 		05C303C3219795D7002E211D /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		05C303C821979ADA002E211D /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
 		05E12F122196721300183B35 /* francis_test_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = francis_test_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +71,7 @@
 		05E12F142196721300183B35 /* francis_test_app */ = {
 			isa = PBXGroup;
 			children = (
+				0583890721B07EA3002E2D8D /* francis_test_app.entitlements */,
 				05C303C721979AC3002E211D /* Supporting Files */,
 				05E12F152196721300183B35 /* AppDelegate.swift */,
 				05E12F172196721300183B35 /* RecordSoundsViewController.swift */,
@@ -116,6 +118,11 @@
 				TargetAttributes = {
 					05E12F112196721300183B35 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -307,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQU54P777R;
 				INFOPLIST_FILE = francis_test_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -324,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQU54P777R;
 				INFOPLIST_FILE = francis_test_app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
